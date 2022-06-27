@@ -36,7 +36,7 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
 endif()
 
 # === Subdirectories ===
-add_subdirectory(ouster_client)
+add_subdirectory(ouster_ros)
 
 if(BUILD_PCAP OR BUILD_EXAMPLES)
   add_subdirectory(ouster_pcap)
